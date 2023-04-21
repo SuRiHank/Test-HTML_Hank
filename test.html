@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bài đầu làm wed của Mị</title>
+	<link rel="stylesheet" type="text/css" href="css\test.css">
+	 <script src="js/test.js"></script>
+</head>
+
+<body>
+
+	<header>
+		<h1>Dang Phuoc Han</h1>
+		<a href="">One</a>
+		<a href="">Two</a>
+		<a href="">Three</a>
+		<a href="">My class</a>
+	</header>
+<!-- /*--------------------------------------------------------------*/ -->
+	<main>		
+		<aside>
+			<img src="images\ChipheoIT.jpg">
+			<img src="images/IT dif Another.jpg">
+			<img src="images/HANK_free-file.png" alt="A14-2019" class = "logo" onclick="logo()"> 
+			<!-- có thể thay thế hàm logo() bằng alert('Thank you') ngay trong html ko cần dùng js-->
+		</aside>
+		<section>
+			<h2>Favorite food</h2>	
+			<ul> <!-- unordered list (danh sách ko có thứ tự như gạch đầu dòng) -->
+				<li>Steak</li>
+				<li>Seafood</li>
+				<li>Sushi</li>
+				<li>Banh my</li>
+				<li>Muốn mất chấm tròn thì bên css gõ "list-style: none"</li>
+			</ul>
+			<h2>Achievements</h2>
+			Progress in this course (100%) <progress value="100" max="100"></progress><br>
+			Progress in the capstone (20%) <progress value="20" max="100"></progress><br>
+			Progress in life goals (50%) <progress value="50" max="100"></progress><br>
+			<h2>More about me</h2>
+			<details>
+				<summary>My child hood</summary> 
+				<p>Mé học html để pass WED101c :))</p>
+			</details><br>
+			<table>
+			  <tr>
+			    <th>Company</th>
+			    <th>Contact</th>
+			    <th>Country</th>
+			  </tr>
+			  <tr>
+			    <td>Alfreds Futterkiste</td>
+			    <td>Maria Anders</td>
+			    <td>Germany</td>
+			  </tr>
+			  <tr>
+			    <td>Centro comercial Moctezuma</td>
+			    <td>Francisco Chang</td>
+			    <td>Mexico</td>
+			  </tr>
+			  <tr>
+			    <td>Centro comercial Moctezuma</td>
+			    <td>Francisco Chang</td>
+			    <td>Mexico</td>
+			  </tr>
+			</table>
+			<div class="Sell">
+				<h2> Đoạn có gạch chân chấm chấm nè </h2>
+				<p>Iphone 13 pro Max</p>
+				<p>Aloooooooooooooo 12345678910JQKA</p>
+				<p>Aloooooooooooooo 12345678910JQKA</p>
+				<p>Aloooooooooooooo 12345678910JQKA</p>
+				<p>Aloooooooooooooo 12345678910JQKA</p>
+				<p id="para1" class="a1"> Đoạn này bị ẩn bên css dùng "display: none" nè</p>
+				<p id="para2" onclick="show()" style="cursor: pointer;">SHOW ALL</p> 
+				<!-- khi người dùng click vào sẽ chạy hàm show bên JS -->
+			</div>
+			 <h1>Your Information to enroll for free</h1>  
+			<form>
+	           <table>       
+	              <tr><td>Full name</td><td><input type="text" id="t1" >*</td></tr>
+	              <tr><td>Email</td><td><input type="text" id="t2" >*</td></tr>
+	              <tr><td>password</td><td><input type="password" id="t3" >*</td></tr>
+	              <tr><td>repassword</td><td><input type="password" id="t4" >*</td></tr>
+	              <tr><td><input type="button" id="t3" value="Enroll" onClick="Enroll()"></td></tr>
+	           </table>
+	           <p>options: <br/><input type="checkbox" id="t5">ask questions for help<br/>
+	                       <input type="checkbox" id="t6">Discuss subjects you're studying<br>
+	                        <input type="checkbox" id="t7">Meet learners around the world
+	                       </p>
+		    </form>
+		</section>
+	</main>
+<!-- /*--------------------------------------------------------------*/ -->
+	<div class="Container">
+		<h1 class="title">Ảnh chôm đâu đó </h1>
+		<div class="acess">
+			<div class="acess-item">
+				<img src="images/Saxi.jpg">
+				<div class="nda">
+					Saxi
+				</div>
+			</div>
+		
+
+			<div class="acess-item">
+				<img src="images/haohao.jpg">
+				<div class="nda">
+					Hao Hao
+				</div>
+			</div>
+		
+
+			<div class="acess-item">
+				<img src="images/vinamilk.jpg">
+				<div class="nda">
+					Vinamilk
+				</div>
+			</div>
+			
+		</div>
+	</div>
+<!-- /*--------------------------------------------------------------*/ -->
+	<footer>
+		<div id="colums">
+			<div>
+				<h3>Contact</h3>
+				<p>Email: handp0403@gmail.com</p>
+				<p>Address: Hoa Phong, Hoa Vang, Da Nanng</p>
+				<p>Phone: 0905150866</p>
+			</div>
+			<div>
+				<h3>Services</h3>
+				<p>Apple Music</p>
+				<p>iCloud</p>
+				<p>App Store</p>
+			</div>
+		</div>	
+		<p>&#169; Copyright 2021 </p>
+	</footer>
+</body>
+</html>
